@@ -4,6 +4,9 @@
 applications in Java. It exposes any standard **Java Interface** over REST webservices to be consumed and
 allows the developer to focus more on business functionality.
 
+Given a `java interface` you can wire two different applications in less than 5 minutes, and 3 lines of code.
+For details see the example below.
+
 **NOTE**: The library is meant to be used during early development cycles and then replaces with something
 better as in `Apache Thrift` or otherwise.
 
@@ -67,10 +70,10 @@ Person person = clientProxy.getPerson("person-id-123");
 ## License
 
 ```
-neo - project scaffolding tool
+rni - rpc negotiable interfaces
 Copyright (c) 2016, Sandeep Gupta
 
-http://sangupta.com/projects/neo
+http://sangupta.com/projects/rni
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
