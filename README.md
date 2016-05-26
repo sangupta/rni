@@ -10,6 +10,11 @@ For details see the example below.
 **NOTE**: The library is meant to be used during early development cycles and then replaces with something
 better as in `Apache Thrift` or otherwise.
 
+A few other parallels that are available include:
+
+* Apache Thrift (using Facebook swift library)
+* Motan - https://github.com/weibocom/motan
+
 ## Usage
 
 Say you have an interface `PersonInterface.java` as:
